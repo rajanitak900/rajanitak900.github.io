@@ -2,7 +2,7 @@ const TopBar = document.getElementById("topbar");
 const Menu = document.getElementById("menu");
 const MenuShowIcon = document.getElementById("menu-show-icon");
 let topbar_show = true;
-if (screen.width <= 700) {
+if (document.body.clientWidth <= 700) {
     TopBar.classList.add("hide");
     topbar_show = false;
 }
