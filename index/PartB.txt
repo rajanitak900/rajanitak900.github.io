@@ -7,8 +7,4 @@ Q3
     Static Site - definiton...
     Dynamic content -- requires server to handle changes in data.
 Q4 
-    Dedicated Hosting -- Servers are shared among users
-    AWS(Amazon Web Services) are available
-    Select server with RAM,Storage and all required and do payment.
-    Server will be ready.
-    Host web server in purchased server
+    Dedicated Hosting 
