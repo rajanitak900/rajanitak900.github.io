@@ -43,6 +43,57 @@
     margin: 20px;
 }
 
+.pr.title {
+    font-size: 6rem;
+    font-weight: bold;
+    margin-top: 110px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+
+.pr.desc {
+    margin: 50px 0px;
+    margin-left: 60px;
+    font-size: 1.5rem;
+}
+
+.more {
+    width: fit-content;
+    margin-left: 60px;
+    background: rgb(234, 0, 255);
+    color: white;
+    font-weight: 600;
+    border-radius: 20px;
+    padding: 14px 24px;
+}
+
+.contact,
+.contact .c-row {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contact .c-row {
+    flex-direction: row;
+}
+
+.contact .member {
+    margin: 50px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.contact .member div {
+    margin: 7px;
+}
+
+.contact .member .name {
+    font-weight: 800;
+}
+
 @media only screen and (max-width: 700px) {
     .topbar {
         flex-direction: column;
@@ -58,6 +109,12 @@
         overflow: hidden;
     }
     .member-table {
-        margin:5px;
+        margin: 5px;
+    }
+    .pr.title {
+        font-size: 3rem;
+    }
+    .contact .c-row {
+        flex-direction: column;
     }
 }
